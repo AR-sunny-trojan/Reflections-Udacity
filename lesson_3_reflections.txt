@@ -15,3 +15,18 @@ instead of another?
 	Clone - When you make a duplicate of a local or remote repository.  Either own
 	or someone else's.
 	Branch - When within a repository you split up workflows.
+	
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	Firstly, it allows you to see if any changes have been made to the remote file
+	as compared to yours.  If there has, you can work offline while incorporating
+	those changes in your project.
+	
+How would you collaborate without using Git or GitHub? What would be easier, and what 
+would be harder?
+	You could collaborate using tools such as dropbox.  It would be
+	easier in that all the updates will show for everyone immediately
+	and al version histories will be stored.  However, it won't let you 
+	experiment as much or work on different (or the same) branches
+	at the same time without conflict.  It also won't let you see
+	the changes between the different versions of each file, which is
+	a big big nono.
